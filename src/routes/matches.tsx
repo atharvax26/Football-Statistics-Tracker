@@ -14,11 +14,11 @@ import {
 export const Route = createFileRoute("/matches")({
   head: () => ({
     meta: [
-      { title: "Match History · Society FC" },
+      { title: "Match History · Chaurange FC" },
       {
         name: "description",
         content:
-          "Every Society FC match — squads, scores, goal scorers and own goals.",
+          "Every Chaurange FC match — squads, scores, goal scorers and own goals.",
       },
     ],
   }),

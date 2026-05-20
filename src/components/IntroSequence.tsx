@@ -5,7 +5,7 @@ import heroRed from "@/assets/hero-red.jpg";
 import heroYellow from "@/assets/hero-yellow.jpg";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
-const TITLE = "SOCIETY FC";
+const TITLE = "CHAURANGE FC";
 
 export function IntroSequence({ onDone }: { onDone: () => void }) {
   const [visible, setVisible] = useState(true);

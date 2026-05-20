@@ -56,13 +56,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Society FC — Private Football League Tracker" },
+      { title: "Chaurange FC — Private Football League Tracker" },
       {
         name: "description",
         content:
-          "Private leaderboard, match history and player stats for the Society FC friend group.",
+          "Private leaderboard, match history and player stats for the Chaurange FC friend group.",
       },
-      { property: "og:title", content: "Society FC" },
+      { property: "og:title", content: "Chaurange FC" },
       { property: "og:description", content: "A private ESPN for the squad." },
       { property: "og:type", content: "website" },
     ],

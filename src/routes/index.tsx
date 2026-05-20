@@ -11,11 +11,11 @@ import heroYellow from "@/assets/hero-yellow.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Leaderboard · Society FC" },
+      { title: "Leaderboard · Chaurange FC" },
       {
         name: "description",
         content:
-          "Live ranked leaderboard of every Society FC player, sorted by weighted score.",
+          "Live ranked leaderboard of every Chaurange FC player, sorted by weighted score.",
       },
     ],
   }),

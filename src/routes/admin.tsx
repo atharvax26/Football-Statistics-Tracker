@@ -5,7 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { matches, players } from "@/lib/mock-data";
 
 export const Route = createFileRoute("/admin")({
-  head: () => ({ meta: [{ title: "Admin · Society FC" }] }),
+  head: () => ({ meta: [{ title: "Admin · Chaurange FC" }] }),
   component: AdminPage,
 });
 
