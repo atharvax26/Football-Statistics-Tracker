@@ -271,7 +271,7 @@ function PlayerProfile() {
             {stats.goalsPerMatch
               .slice()
               .reverse()
-              .map((row) => {
+              .map((row: { matchNumber: number; goals: number }) => {
                 const m = matches.find((x) => x.matchNumber === row.matchNumber)!;
                 const playerSquad: "A" | "B" = m.squadA.includes(stats.player.id)
                   ? "A"
