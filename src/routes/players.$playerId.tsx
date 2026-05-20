@@ -26,7 +26,7 @@ export const Route = createFileRoute("/players/$playerId")({
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: `${loaderData?.stats.player.name ?? "Player"} · Society FC` },
+      { title: `${loaderData?.stats.player.name ?? "Player"} · Chaurange FC` },
       {
         name: "description",
         content: `Full stats, charts, and match log for ${

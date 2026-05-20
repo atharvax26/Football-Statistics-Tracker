@@ -17,7 +17,7 @@ export function Navbar() {
             S
           </span>
           <span className="font-display text-xl tracking-[0.18em] group-hover:text-primary transition-colors">
-            SOCIETY FC
+            CHAURANGE FC
           </span>
         </Link>
         <nav className="flex items-center gap-1">

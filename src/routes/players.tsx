@@ -6,8 +6,8 @@ import { getLeaderboard } from "@/lib/mock-data";
 export const Route = createFileRoute("/players")({
   head: () => ({
     meta: [
-      { title: "Players · Society FC" },
-      { name: "description", content: "The Society FC squad registry." },
+      { title: "Players · Chaurange FC" },
+      { name: "description", content: "The Chaurange FC squad registry." },
     ],
   }),
   component: PlayersPage,
