@@ -107,16 +107,12 @@ export function IntroSequence({ onDone }: { onDone: () => void }) {
               </motion.div>
             </div>
             <motion.div
-              className="mt-6 flex items-center justify-center gap-4 text-muted-foreground"
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 1.3, ease: EASE }}
+              className="mt-12 text-[10px] uppercase tracking-[0.4em] text-muted-foreground/60"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 2.2, duration: 0.6 }}
             >
-              <span className="h-px w-10 bg-border" />
-              <span className="text-xs uppercase tracking-[0.4em]">
-                Est. 2026 · Private League
-              </span>
-              <span className="h-px w-10 bg-border" />
+              tap anywhere to enter
             </motion.div>
             <motion.div
               className="mt-12 text-[10px] uppercase tracking-[0.4em] text-muted-foreground/60"
